@@ -1,0 +1,134 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px 5px rgb(139, 101, 5);
+    width: 37%;
+    border-radius: 25%;
+}
+#main-header {
+    height: 10vh;
+}
+
+header {
+    grid-area: header;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.headnav {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+
+#navigation > li {
+    display: contents;
+    padding: 10px;
+    margin: 100px;
+}
+
+#footernavigation > li {
+    padding: 8px;
+    margin: 10px;
+}
+
+body > main > article {
+    width: 60%;
+    margin: auto;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+form {
+    text-align: center;
+}
+nav > ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.inspo {
+    font-size: 20px;
+    color: bisque;
+    text-decoration: none;
+}
+
+#subscribe {
+    background-color: goldenrod;
+}
+
+body > footer {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 10px;
+}
+
+.footnav {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main {
+    background-color: goldenrod;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img {
+    border-radius: 30%;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    padding: 16px;
+    
+}
+#grid-container {
+    display: grid;
+    grid-template-areas:
+    'header menu'
+    'links links'
+    'main main'
+    'footer footer';
+    grid-template-columns: 4fr 2fr;
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 10px;  
+}
+
+#menu {
+    grid-area: menu;
+}
+
+footer {
+    grid-area: footer;
+}
+
+#links {
+    grid-area: links;
+    text-align: right;
+}
+
+#main-content {
+    grid-area: main;
+    text-align: center;
+}
